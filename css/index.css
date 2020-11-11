@@ -1,0 +1,179 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image: url('../images/background/main-bg.jpg');
+}
+
+#principal{
+	height: 1000px;
+	width: 100%;
+	margin:0.5em auto;
+	padding:0.5em;
+}
+
+#menu-principal{
+	height: 13%;
+	width: 100%;
+	background: #ffffff;
+	margin: 0.25em auto;
+}
+
+#contenedor{
+	height:50%;
+	width:100%;
+	margin: 0.20em auto;
+}
+
+#menu-lateral{
+	height:100%;
+	float: left;
+	display:flex;
+}
+
+#slider{
+	height:100%;
+	width:100%;
+	background:#000000;
+}
+
+
+.adapter{
+	width:100%;
+}
+
+#contenedor-section{
+	display: flex;
+	margin: 2vw;
+}
+
+#contenedor-section > div{
+	text-align: center;
+	margin: 1vw;
+}
+
+.redondear img{
+	width:100%;
+	height:100%;
+	border-radius:150px;
+}
+
+.redondear img:hover{
+	border: black 5px solid;
+}
+
+.redondear h4{
+	font-size: 2vw;
+}
+
+#footer{
+	margin:0.20em auto;
+	height: 15%;
+	width: 100%;
+	background: #f8f9fa;
+}
+
+.centrar{
+	display:flex;
+	align-items: center;
+	justify-content:center;
+}
+
+.centrar h1{
+	font-size: 2vw;
+}
+
+.centrar h2{
+	font-size: 2vw;
+	margin-top:auto;
+}
+
+#social {
+	position: fixed;
+	top:  40%; 
+	z-index: 2000; 
+}
+ 
+#social ul {
+	list-style: none;
+}
+ 
+#social ul li a {
+	display: inline-block;
+	color:#fff;
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+ 
+#social ul li .icon-facebook {background:#3b5998;}
+#social ul li .icon-twitter {background: #00abf0;}
+#social ul li .icon-googleplus {background: #d95232;}
+#social ul li .icon-pinterest {background: #ae181f;}
+#social ul li .icon-mail {background: #666666;}
+ 
+#social ul li a:hover {
+	background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+	padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+
+
+#video{
+	height:80%;
+	width:70;
+	align-items:center;
+}
+
+#formulario{
+	height: 80%;
+	width: 70%;
+	align-items:center;
+	border: 2px solid #000;
+	border-radius: 1em;
+	margin: auto;
+}
+
+#formulario ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+#formulario li + li {
+  margin-top: 1em;
+}
+
+#formulario label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+
+input, 
+textarea {
+  font: 1em sans-serif;
+  width: 15vw;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, 
+textarea:focus {
+  border-color: #000;
+}
+
+#formulario textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+#tablas{
+	height: 80%;
+	width: 80%;
+	margin:auto;
+}
